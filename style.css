@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("http://wallpapercave.com/wp/BXc1IXP.jpg");
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.container h1 {
+    color: #FFE421;
+    font-size: 3em;
+}
+
+.container li, p {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFE421;
+}
+
+/*.planetCard {
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;;
+}*/
+
+.landscape {
+    width: 100%;
+}
+
+.swLogo {
+    width: 1024px;
+    height: 768px;
+    margin-top: -150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images/logo.png");
+    /*background-image: url("http://hellogiggles.com/wp-content/uploads/2015/10/18/6810783-star-wars-logo.jpg");*/
+}

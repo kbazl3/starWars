@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="swapiApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Star Wars Planets</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body ng-controller="planetsCtrl">
+
+        <div class="container">
+            <h1>Planets of</h1>
+            <div class="swLogo"></div>
+            <div class="planetCard" ng-repeat="planet in planets">
+                <div class="landscape">
+                    <h1>{{planet.name}}</h1>
+                    <p>{{planet.summary}}</p>
+                    <img ng-src="{{planet.landImg}}" alt="" />
+                </div>
+                <ul>
+                <li>Climate: {{planet.climate}}</li>
+                <li>Terrain: {{planet.terrain}}</li>
+                <li>Surface Water: {{planet.surface_water}}</li>
+                <li>Diameter: {{planet.diameter}}</li>
+                <li>Planet Rotation Perion:{{planet.rotation_period}}</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+        <script src="js/app.js" charset="utf-8"></script>
+        <script src="js/controller.js" charset="utf-8"></script>
+        <script src="js/service.js" charset="utf-8"></script>
+    </body>
+</html>
