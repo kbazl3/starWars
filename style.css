@@ -41,3 +41,9 @@ body {
     background-image: url("images/logo.png");
     /*background-image: url("http://hellogiggles.com/wp-content/uploads/2015/10/18/6810783-star-wars-logo.jpg");*/
 }
+
+.header {
+    width: 588px;
+    height: 150px;
+    flex: display;
+}

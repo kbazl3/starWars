@@ -1,5 +1,5 @@
 angular.module('swapiApp')
-    .service('planetService', function($http, $q) {
+.service('planetService', function($http, $q) {
 
         this.getPlanets = function() {
             var deferred = $q.defer();

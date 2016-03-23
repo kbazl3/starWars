@@ -1,10 +1,5 @@
 angular.module('swapiApp')
-    .controller('planetsCtrl', function($scope, planetService) {
-
-        // planetService.getPlanets()
-        //     .then(function(planets) {
-        //         $scope.planets = planets;
-        //     });
+        .controller('planetsCtrl', function($scope, planetService, $anchorScroll) {
 
         $scope.getParseData = function() {
             planetService.getPlanets()
@@ -68,6 +63,12 @@ angular.module('swapiApp')
         };
 
         $scope.getParseData();
+
+        $scope.scrollTo = function(id) {
+            $anchorScroll(id);
+        };
+
+        // $scope.sound = ngAudio.load("./music/saberon.mp3");
 
 
     });

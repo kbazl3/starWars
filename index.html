@@ -6,11 +6,48 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body ng-controller="planetsCtrl">
+        <div class="header">
+            <span class="planetLinks">
+            <ul>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Alderaan')" start="0.2" volume="0.5">Alderaan</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Yavin IV')" start="0.2" volume="0.5">Yavin IV</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Hoth')" start="0.2" volume="0.5">Hoth</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Dagobah')" start="0.2" volume="0.5">Dagobah</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Bespin')" start="0.2" volume="0.5">Bespin</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Endor')" start="0.2" volume="0.5">Endor</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Naboo')" start="0.2" volume="0.5">Naboo</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Coruscant')" start="0.2" volume="0.5">Coruscant</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Kamino')" start="0.2" volume="0.5">Kamino</a>
+            </li>
+            <li class="planets">
+              <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Geonosis')" start="0.2" volume="0.5">Geonosis</a>
+            </li>
+          </ul>
+        </span>
+    </div>
 
         <div class="container">
             <h1>Planets of</h1>
             <div class="swLogo"></div>
             <div class="planetCard" ng-repeat="planet in planets">
+                <a name="{{planet.name}}"></a>
                 <div class="landscape">
                     <h1>{{planet.name}}</h1>
                     <p>{{planet.summary}}</p>
