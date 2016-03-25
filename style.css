@@ -1,13 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
 body {
+    background-image: url("https://i.ytimg.com/vi/JquobII5VjA/maxresdefault.jpg");
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
-    background-image: url("http://wallpapercave.com/wp/BXc1IXP.jpg");
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    background: gray;
+    background-image: url("https://i.ytimg.com/vi/JquobII5VjA/maxresdefault.jpg");
+    border-bottom: 5px solid gray;
+    top: 0;
+
+}
+
+.header li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FFE421;
+}
+
+.planetsHeader {
+    width: 100%;
+    height: 100px;
+    background: teal;
+    position: fixed;
 }
 
 .container {
-    width: 80%;
+    width: 900px;
     height: auto;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .container h1 {
@@ -20,6 +65,7 @@ body {
     font-size: 20px;
     font-weight: 900;
     color: #FFE421;
+
 }
 
 /*.planetCard {
@@ -32,6 +78,15 @@ body {
     width: 100%;
 }
 
+.infoTab {
+    width: 90%;
+    height: auto;
+    /*background: #191603;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
 .swLogo {
     width: 1024px;
     height: 768px;
@@ -39,11 +94,36 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-image: url("images/logo.png");
-    /*background-image: url("http://hellogiggles.com/wp-content/uploads/2015/10/18/6810783-star-wars-logo.jpg");*/
 }
 
-.header {
-    width: 588px;
+.test {
+    width: 100%;
+    height: 300px;
+    background: teal;
+}
+
+.landscapeImg {
+    width: 90%;
+    height: 600px;
+}
+
+.planetSummary {
+    width: 100%;
+    height: auto;
+}
+
+.planetStats {
+    width: 40%;
     height: 150px;
-    flex: display;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.planetImg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 75px;
 }

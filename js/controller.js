@@ -8,24 +8,34 @@ angular.module('swapiApp')
                     for (var i = 0; i < response.length; i++) {
                         if (response[i].name === "Hoth") {
                           response[i].landImg = 'https://s-media-cache-ak0.pinimg.com/736x/2e/63/f8/2e63f8c62e5eac19470109b84f9e08a0.jpg';
+                          response[i].planetImg = 'http://vignette2.wikia.nocookie.net/swtor/images/d/d1/Hoth.jpg/revision/latest?cb=20100720144834';
                         } else if (response[i].name === "Alderaan") {
                             response[i].landImg = './images/planets/Alderaan-landscape.jpg';
+                            response[i].planetImg = 'http://vignette1.wikia.nocookie.net/starwars/images/4/4a/Alderaan.jpg/revision/latest?cb=20061211013805';
                           } else if (response[i].name === "Yavin IV") {
-                            response[i].landImg = './images/planets/Yavin4-landscape.jpeg';
+                            response[i].landImg = 'http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2014/09/Image-1-2400x1200-562320997426.jpg';
+                            response[i].planetImg = 'https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Yavin-4.jpg/250px-Yavin-4.jpg';
                           } else if (response[i].name === "Dagobah") {
-                            response[i].landImg = 'http://img.lum.dolimg.com/v1/images/Dagobah_890df592.jpeg?region=391%2C39%2C830%2C467&width=768';
+                            response[i].landImg = 'http://www.starwarsnewsnet.com/wp-content/uploads/2014/04/Dagobah11.jpg';
+                            response[i].planetImg = 'https://s-media-cache-ak0.pinimg.com/736x/72/76/16/727616fdc990d43935ce284c695000d0.jpg';
                           } else if (response[i].name === "Bespin") {
                             response[i].landImg = 'http://img03.deviantart.net/5a73/i/2015/097/9/5/star_wars___bespin_cloud_city_by_mirko77-d8ot5or.jpg';
+                            response[i].planetImg = 'http://vignette1.wikia.nocookie.net/starwars/images/8/82/Bespin_space.jpg/revision/latest?cb=20071218151245';
                           } else if (response[i].name === "Endor") {
                             response[i].landImg = 'http://www.tdguild.com/Images/Completed/mcq-endor3.jpg';
+                            response[i].planetImg = 'http://vignette2.wikia.nocookie.net/starwars/images/6/61/Moon_of_Endor_NEGAS.jpg/revision/latest?cb=20061115194719';
                           } else if (response[i].name === "Naboo") {
-                            response[i].landImg = 'http://vignette4.wikia.nocookie.net/lucasfilm/images/5/50/Naboo.jpg/revision/latest?cb=20131001173612';
+                            response[i].landImg = 'http://vignette2.wikia.nocookie.net/starwars/images/e/eb/Theedroyalpalace.png/revision/latest?cb=20130719122716';
+                            response[i].planetImg = 'https://upload.wikimedia.org/wikipedia/en/6/60/Alderaan250ppx.PNG';
                           } else if (response[i].name === "Coruscant") {
-                            response[i].landImg = 'http://america.pink/images/1/0/8/9/4/4/5/en/2-coruscant.jpg';
+                            response[i].landImg = 'http://cdn3.sbnation.com/assets/3475177/GM_E3_Underworld_Vista_Big.jpg';
+                            response[i].planetImg = 'http://vignette1.wikia.nocookie.net/starwars/images/1/16/Coruscant-EotE.jpg/revision/latest?cb=20130908205521';
                           } else if (response[i].name === "Kamino") {
-                            response[i].landImg = 'http://www.starwars-chronicles.com/images/Locations_Large/Kamino_Tipoca_City.JPG';
+                            response[i].landImg = 'http://vignette3.wikia.nocookie.net/starwars/images/2/2c/TipocaCity-CC.png/revision/latest?cb=20130505022521';
+                            response[i].planetImg = 'http://vignette2.wikia.nocookie.net/swfanon/images/6/6b/Kamino_planet.jpg/revision/20070218002840';
                           } else if (response[i].name === "Geonosis") {
                             response[i].landImg = 'http://img.lum.dolimg.com/v1/images/databank_geonosis_01_169_1d04e086.jpeg?region=0%2C0%2C1560%2C878&width=768';
+                            response[i].planetImg = 'http://41.media.tumblr.com/d57f1cdcd9a17ea97c35023784dae89b/tumblr_no39yl40x51utlj9oo1_1280.jpg';
                           } else {
                             response[i].landImg = './images/planets/NotFound.jpg';
                           }
