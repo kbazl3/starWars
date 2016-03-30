@@ -1,0 +1,19 @@
+<a ui-sref="home">
+    <div class="swLogo"></div>
+</a>
+
+<div class="shiptest">
+    <ul ng-repeat="ship in ships">
+        <li>{{ship.name}}</li>
+        <img class="shipImg"  ng-src="{{ship.img}}" alt="" />
+    </ul>
+    i
+</div>
+
+<div class="MGLTchart">
+
+    <canvas id="bar" class="chart chart-bar"
+        chart-data="data" chart-labels="labels"> chart-series="series"
+    </canvas>
+
+</div>

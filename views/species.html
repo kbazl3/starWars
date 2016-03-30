@@ -1,0 +1,27 @@
+<div class="container">
+    <a ui-sref="home">
+        <div class="swLogo"></div>
+    </a>
+    <div class="planetCard" ng-repeat="alien in aliens">
+        <a name="{{alien.name}}"></a>
+        <div class="landscape">
+            <h1>{{alien.name}}</h1>
+            <img class="landscapeImg" ng-src="{{alien.img}}" alt="" />
+        </div>
+        <div class="infoTab">
+            <div class="planetSummary">
+                <p>{{planet.summary}}</p>
+            </div>
+            <div class="planetStats">
+                <ul>
+                    <li>Average Height: {{alien.average_height}} cm</li>
+                    <!-- <li>Average Lifespan: {{alien.average_lifespan}} Years</li> -->
+                    <li>Classification: {{alien.classification}}</li>
+                    <li>Designation: {{alien.designation}}</li>
+                    <li>Language: {{alien.language}}</li>
+                </ul>
+            </div>
+            <img ng-src="{{planet.planetImg}}" alt="" class="planetImg" />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="swapiApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Star Wars Planets</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div ui-view> </div>
+
+
+
+
+        <!-- Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+        <script src="js/app.js" charset="utf-8"></script>
+
+        <!-- Angular Charts -->
+        <script src="https://rawgit.com/nnnick/Chart.js/master/Chart.min.js"></script>
+        <script src="https://rawgit.com/jtblin/angular-chart.js/master/dist/angular-chart.min.js"></script>
+
+        <!-- Angular Audio -->
+        <script src="./angular-audio/app/angular.audio.js"></script>
+
+        <!-- Controllers -->
+        <script src="js/controllers/planetsCtrl.js" charset="utf-8"></script>
+        <script src="js/controllers/shipCtrl.js" charset="utf-8"></script>
+        <script src="js/controllers/speciesCtrl.js" charset="utf-8"></script>
+
+        <!-- Services -->
+        <script src="js/services/planetSvc.js" charset="utf-8"></script>
+        <script src="js/services/shipSvc.js" charset="utf-8"></script>
+        <script src="js/services/speciesSvc.js" charset="utf-8"></script>
+    </body>
+</html>
