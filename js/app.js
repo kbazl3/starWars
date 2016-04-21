@@ -1,4 +1,4 @@
-angular.module("swapiApp", ['ui.router', 'chart.js', 'ngAudio'])
+angular.module("swapiApp", ['ui.router', 'chart.js', 'ngAudio', 'ne.swapi'])
     .config(function($stateProvider, $urlRouterProvider) {
 
         $urlRouterProvider.otherwise("/");

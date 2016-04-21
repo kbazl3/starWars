@@ -1,29 +1,35 @@
 angular.module('swapiApp')
-.service('planetService', function($http, $q) {
+.service('planetService', function($http, $q, swapi) {
 
         this.getPlanets = function() {
             var deferred = $q.defer();
-            $http({
-                method:"GET",
-                url: "http://swapi.co/api/planets"
-            })
-            .then(function(response) {
-                var arr = [];
-                var parsedResponse = response.data.results;
-                for (var i = 0; i < parsedResponse.length; i++) {
-                    arr.push({
-                        name: parsedResponse[i].name,
-                        climate: parsedResponse[i].climate,
-                        terrain: parsedResponse[i].terrain,
-                        diameter: parsedResponse[i].diameter,
-                        rotation_period: parsedResponse[i].rotation_period,
-                        surface_water: parsedResponse[i].surface_water
+            // $http({
+            //     method:"GET",
+            //     url: "http://swapi.co/api/planets"
+            // })
+            // .then(function(response) {
+            //     var arr = [];
+            //     var parsedResponse = response.data.results;
+            //     for (var i = 0; i < parsedResponse.length; i++) {
+            //         arr.push({
+            //             name: parsedResponse[i].name,
+            //             climate: parsedResponse[i].climate,
+            //             terrain: parsedResponse[i].terrain,
+            //             diameter: parsedResponse[i].diameter,
+            //             rotation_period: parsedResponse[i].rotation_period,
+            //             surface_water: parsedResponse[i].surface_water
+            //
+            //         });
+            //     }
+            //     // console.log(parsedResponse);
+            //     deferred.resolve(arr);
+            // });
+            // return deferred.promise;
 
-                    });
-                }
-                // console.log(parsedResponse);
-                deferred.resolve(arr);
+            return swapi.planets.all()
+            .then(function(response) {
+                console.log(response.results);
+                return response.results;
             });
-            return deferred.promise;
         };
     });

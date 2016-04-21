@@ -35,7 +35,7 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     text-align: center;
     position: fixed;
     z-index: 3;
@@ -49,7 +49,7 @@ body {
 .header li {
     display: inline;
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .test {
@@ -92,12 +92,6 @@ body {
 
 }
 
-/*.planetCard {
-     width: 500px;
-     margin-left: auto;
-     margin-right: auto;;
-}*/
-
 .landscape {
     width: 100%;
 }
@@ -114,7 +108,7 @@ body {
 .swLogo {
     width: 1024px;
     height: 768px;
-    margin-top: -150px;
+    margin-top: -110px;
     margin-left: auto;
     margin-right: auto;
     background-image: url("images/logo.png");
@@ -151,3 +145,49 @@ body {
     bottom: 0;
     right: 75px;
 }
+
+/* scroll animation*/
+
+#titles {
+	position: absolute;
+	width: 18em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -9em;
+	font-size: 350%;
+	font-weight: bold;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(14deg);
+}
+
+#titles p {
+    font-size: 1.5em;
+}
+
+#titles:after {
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	pointer-events: none;
+}
+
+
+#titlecontent {
+	position: absolute;
+	top: 100%;
+	animation: scroll 100s linear 4s infinite;
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+/*test animation*/
