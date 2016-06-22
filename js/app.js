@@ -12,13 +12,23 @@ angular.module("swapiApp", ['ui.router', 'chart.js', 'ngAudio', 'ne.swapi'])
         .state("planets", {
             url: "/planets",
             templateUrl: "views/planets.html",
-            controller: 'planetsCtrl'
+            controller: 'planetsCtrl',
+            resolve: {
+                planets: function(planetService) {
+                    return planetService.getPlanets()
+                }
+            }
         })
 
         .state("ships", {
             url: "/spaceships",
             templateUrl: "views/ships.html",
-            controller: 'shipCtrl'
+            controller: 'shipCtrl',
+            resolve: {
+                ships: function(shipSvc) {
+                    return shipSvc.getShips()
+                }
+            }
         })
 
         .state("species", {

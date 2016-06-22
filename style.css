@@ -35,8 +35,7 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    /*justify-content: space-between;*/
-    text-align: center;
+    justify-content: space-around;
     position: fixed;
     z-index: 3;
     background: gray;
@@ -48,8 +47,8 @@ body {
 
 .header li {
     display: inline;
-    margin-right: 30px;
-    font-size: 20px;
+    margin-right: 75px;
+    font-size: 50px;
 }
 
 .test {
@@ -84,7 +83,7 @@ body {
     font-size: 3em;
 }
 
-.container li, p {
+.container li, p, h1 {
     list-style: none;
     font-size: 20px;
     font-weight: 900;
@@ -121,8 +120,8 @@ body {
 }
 
 .landscapeImg {
-    width: 90%;
-    height: 600px;
+    width: 100%;
+    height: 450px;
 }
 
 .planetSummary {
@@ -189,5 +188,3 @@ body {
 	0% { top: 100%; }
 	100% { top: -170%; }
 }
-
-/*test animation*/

@@ -1,48 +1,11 @@
-<div class="header">
-    <span class="planetLinks">
-    <ul>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Alderaan')" start="0.2" volume="0.5">Alderaan</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Yavin IV')" start="0.2" volume="0.5">Yavin IV</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Hoth')" start="0.2" volume="0.5">Hoth</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Dagobah')" start="0.2" volume="0.5">Dagobah</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Bespin')" start="0.2" volume="0.5">Bespin</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Endor')" start="0.2" volume="0.5">Endor</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Naboo')" start="0.2" volume="0.5">Naboo</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Coruscant')" start="0.2" volume="0.5">Coruscant</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Kamino')" start="0.2" volume="0.5">Kamino</a>
-    </li>
-    <li class="planets">
-      <a href="" ng-audio="../sounds/chewy_roar.mp3" ng-click="scrollTo('Geonosis')" start="0.2" volume="0.5">Geonosis</a>
-    </li>
-  </ul>
-</span>
-</div>
-
 <div class="container">
     <a ui-sref="home">
         <div class="swLogo"></div>
     </a>
     <div class="planetCard" ng-repeat="planet in planets">
-        <a name="{{planet.name}}"></a>
+        <a name="{{planet.response.name}}"></a>
         <div class="landscape">
-            <h1>{{planet.name}}</h1>
+            <h1>{{planet.response.name}}</h1>
             <img class="landscapeImg" ng-src="{{planet.landImg}}" alt="" />
         </div>
         <div class="infoTab">
@@ -51,11 +14,11 @@
             </div>
             <div class="planetStats">
                 <ul>
-                    <li>Climate: {{planet.climate}}</li>
-                    <li>Terrain: {{planet.terrain}}</li>
-                    <li>Surface Water: {{planet.surface_water}}%</li>
-                    <li>Diameter: {{planet.diameter}} miles</li>
-                    <li>Planet Rotation Perion: {{planet.rotation_period}} hours</li>
+                    <li>Climate: {{planet.response.climate}}</li>
+                    <li>Terrain: {{planet.response.terrain}}</li>
+                    <li>Surface Water: {{planet.response.surface_water}}%</li>
+                    <li>Diameter: {{planet.response.diameter}} miles</li>
+                    <li>Planet Rotation Perion: {{planet.response.rotation_period}} hours</li>
                 </ul>
             </div>
             <img ng-src="{{planet.planetImg}}" alt="" class="planetImg" />
