@@ -1,15 +1,7 @@
 angular.module('swapiApp')
     .controller('shipCtrl', function($scope, shipSvc, $anchorScroll, ships) {
 
-
-            // shipSvc.getShips()
-            //     .then(function(ships) {
-            //         $scope.ships = ships;
-            //
-            //     });
-
                 $scope.ships = ships;
-
 
             //bar graph
             $scope.data =[
