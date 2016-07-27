@@ -2,7 +2,7 @@ angular.module('swapiApp')
     .service('speciesSvc', function($http, $q, swapi) {
 
         this.getSpecies = function() {
-            var deferred = $q.defer();
+            var dfd = $q.defer();
             var speciesObj = [];
 
             swapi.species.all()
@@ -214,12 +214,14 @@ angular.module('swapiApp')
                     }
 
                 }
+                dfd.resolve(speciesObj)
 
 
                 console.log(speciesObj);
 
-                return response.results;
+                // return response.results;
             });
+            return dfd.promise;
         };
 
     });
