@@ -1,11 +1,7 @@
 angular.module('swapiApp')
-    .controller('speciesCtrl', function($scope, speciesSvc, $anchorScroll) {
+    .controller('speciesCtrl', function($scope, speciesSvc, $anchorScroll, species) {
 
-        speciesSvc.getSpecies()
-            .then(function(response) {
-                $scope.aliens = response;
-            });
-            
+            $scope.aliens = species
             $scope.scrollTo = function(id) {
                 $anchorScroll(id);
             };

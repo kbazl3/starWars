@@ -6,7 +6,13 @@ angular.module("swapiApp", ['ui.router', 'chart.js', 'ngAudio', 'ne.swapi'])
         $stateProvider
         .state("home", {
             url: "/",
-            templateUrl: "views/home.html"
+            templateUrl: "views/home.html",
+            controller: function($scope){
+                $scope.loaderWheel = true;
+                $scope.showLoaderWheel = function() {
+                    $scope.loaderWheel = false;
+                }
+            }
         })
 
         .state("planets", {
@@ -34,7 +40,12 @@ angular.module("swapiApp", ['ui.router', 'chart.js', 'ngAudio', 'ne.swapi'])
         .state("species", {
             url: "/species",
             templateUrl: "views/species.html",
-            controller: 'speciesCtrl'
+            controller: 'speciesCtrl',
+            resolve: {
+                species: function(speciesSvc) {
+                    return speciesSvc.getSpecies()
+                }
+            }
         });
 
 });
