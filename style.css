@@ -156,14 +156,13 @@ body {
 	margin-left: -9em;
 	font-size: 350%;
 	font-weight: bold;
-	text-align: justify;
 	overflow: hidden;
 	transform-origin: 50% 100%;
 	transform: perspective(300px) rotateX(14deg);
 }
 
 #titles p {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 #titles:after {
