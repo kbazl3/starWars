@@ -7,11 +7,12 @@ angular.module("swapiApp", ['ui.router', 'chart.js', 'ngAudio', 'ne.swapi'])
         .state("home", {
             url: "/",
             templateUrl: "views/home.html",
-            controller: function($scope){
+            controller: function($scope, ngAudio){
                 $scope.loaderWheel = true;
                 $scope.showLoaderWheel = function() {
                     $scope.loaderWheel = false;
                 }
+                ngAudio.load("../sounds/chewy_roar.mp3");
             }
         })
 

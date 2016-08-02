@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono);
+
 html {
   box-sizing: border-box;
+  font-family: "Space Mono"
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -48,7 +51,7 @@ body {
 .header li {
     display: inline;
     margin-right: 75px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .test {
@@ -162,7 +165,7 @@ body {
 }
 
 #titles p {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 #titles:after {
@@ -179,8 +182,8 @@ body {
 
 #titlecontent {
 	position: absolute;
-	top: 100%;
-	animation: scroll 100s linear 4s infinite;
+	top: 80%;
+	animation: scroll 75s linear 4s infinite;
 }
 /*********** LOADER ****************/
 
