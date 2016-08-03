@@ -93,7 +93,9 @@ body {
     color: #FFE421;
 
 }
-
+.planetCard {
+    margin-bottom: 100px;
+}
 .landscape {
     width: 100%;
 }
