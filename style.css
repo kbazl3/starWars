@@ -112,11 +112,11 @@ body {
 }
 
 .swLogo {
-    width: 1024px;
-    height: 768px;
+    width: 879.8px;
+    height: 614.4px;
     margin-top: -110px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -800;
+    /*margin-right: auto;*/
     background-image: url("images/logo.png");
 }
 
