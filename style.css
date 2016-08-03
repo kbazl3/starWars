@@ -81,6 +81,10 @@ body {
 
 }
 
+.planetCard {
+    margin-bottom: 100px;
+}
+
 .container h1 {
     color: #FFE421;
     font-size: 3em;
