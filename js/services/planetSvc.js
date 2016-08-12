@@ -54,7 +54,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Naboo") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette2.wikia.nocookie.net/starwars/images/0/01/Theed-MoaTM.png/revision/latest?cb=20121002233339',
+                                landImg: 'http://wallpaper4k.info/wp-content/uploads/2016/03/49226-naboo-from-star-wars-1920x1080-movie-wallpaper.jpeg',
                                 planetImg: 'https://upload.wikimedia.org/wikipedia/en/6/60/Alderaan250ppx.PNG',
                                 summary: "Naboo was a planet that was the sector capital of the Chommell sector near the Outer Rim territories. It was a largely unspoiled world with large plains, swamps and seas. It was mostly known as the homeworld of notable historical figures who played major roles in the downfall of the Galactic Republic and the rise of the Galactic Empire, namely Padmé Amidala, Emperor Palpatine and Jar Jar Binks."
                             })
@@ -82,28 +82,28 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Utapau") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette3.wikia.nocookie.net/starwars/images/1/15/Battleofutapau.png/revision/latest?cb=20130210054728',
+                                landImg: 'http://vignette4.wikia.nocookie.net/starwars/images/2/26/Utapau_surface.png/revision/latest?cb=20130202035123',
                                 planetImg: 'http://orig13.deviantart.net/d209/f/2010/079/d/2/utapau_by_shift_ing.png',
                                 summary: "Utapau was a remote planet in the Outer Rim Territories' Utapau system that was filled with enormous sinkholes. Its native inhabitants were the Pau'ans and the Utai, while tribes of Amani also immigrated to the world. It was the location of the Battle of Utapau during the Clone Wars."
                             })
                         } else if (r[i].name === "Mustafar") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette2.wikia.nocookie.net/starwars/images/4/4a/Lava_Rivers.png/revision/latest?cb=20140321174433',
+                                landImg: 'http://img.lum.dolimg.com/v1/images/databank_mustafar_01_169_5b470758.jpeg?region=0%2C0%2C1560%2C878&width=768',
                                 planetImg: 'http://orig12.deviantart.net/893e/f/2011/114/d/1/mustafar_by_shift_ing-d2m2myg.png',
                                 summary: "Mustafar was a small volcanic planet located in the Mustafar system, situated between two gas giants in the Outer Rim Territories that was aligned with the Confederacy of Independent Systems during the Clone Wars and later taken over by the Galactic Empire after the Techno Union was nationalized at the conclusion of the conflict."
                             })
                         } else if (r[i].name === "Kashyyyk") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/e/e8/Can-cell_kashyyyk.png/revision/latest?cb=20130202022903',
+                                landImg: 'http://vignette2.wikia.nocookie.net/aliens/images/d/d0/Kashyyyk2iq9.jpg/revision/latest?cb=20090331183739',
                                 planetImg: 'http://img07.deviantart.net/c166/i/2006/205/0/e/kashyyyk_by_sithspidey.jpg',
                                 summary: "Kashyyyk (occasionally spelled Kashyk) was a wroshyr tree-covered planet located in the southwestern quadrant of the galaxy and the homeworld of the Wookiee species. It was a member of the Galactic Republic and after the Clone Wars endured enslavement under the Galactic Empire."
                             })
                         } else if (r[i].name === "Polis Massa") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette2.wikia.nocookie.net/starwars/images/d/d2/Polis_Massa_surface.jpg/revision/latest?cb=20151014200906',
+                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/a/a6/Polis_massa.png/revision/latest?cb=20130205053216',
                                 planetImg: 'http://vignette3.wikia.nocookie.net/starwars/images/2/22/PolisMassaNEGAS.jpg/revision/latest?cb=20061119201146',
                                 summary: "Polis Massa was an asteroid field located in the Subterrel sector of the Outer Rim Territories, far from any major hyperspace lanes. At some point, Polis Massa was a planet located within the system of the same name, though it was destroyed by a mysterious cataclysm. The Archaeological Research Council of Kallidah established a base on one asteroid in order to excavate its surface to study the reasons behind the planet's destruction. The Kallidahin eventually came to be known as Polis Massans."
                             })
@@ -117,7 +117,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Felucia") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette4.wikia.nocookie.net/starwars/images/2/27/Felucia-wide.png/revision/latest?cb=20130216014930',
+                                landImg: 'http://vignette2.wikia.nocookie.net/starwars/images/3/38/Felucia_dawn.jpg/revision/latest?cb=20090709070048',
                                 planetImg: 'http://static.giantbomb.com/uploads/scale_small/0/118/484289-felucia_tfu.jpg',
                                 summary: "Felucia was a colorful, humid jungle planet located in the Felucia system of the Outer Rim. Being a key planet for control of the Perlemian Trade Route, it was the location of several battles between the Galactic Republic and Confederacy of Independent Systems during the Clone Wars, and later at least one Imperial outpost. After the execution of Order 66, Jedi Knight Aayla Secura was executed by Commander Bly and the 327th Star Corps on Felucia."
                             })
@@ -152,28 +152,28 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Corellia") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/6/67/Fighters_over_Corellia.png/revision/latest?cb=20130221060328',
+                                landImg: 'http://www.bandedehoufs.net/BDH%20index_fichiers/SWTOR/Fan%20Kit%20-%20Star%20Wars%20-%20The%20Old%20Republic/planetes/corellia/corellia-image-conceptuelle-005.jpg',
                                 planetImg: 'http://vignette4.wikia.nocookie.net/starwars/images/3/33/Corellia_TOR_new.png/revision/latest?cb=20121011034628',
                                 summary: "Corellia was located in the Core Worlds. It was known for its ace pilots and large starships. Vessels such as the Millennium Falcon and Imperial starships were built on Corellia. At some point in the Imperial era, an organization known as the Corellian Resistance operated on the planet, fighting against the Galactic Empire. One of their members, Miru Nadrinakar, attempted to warn them of an upcoming crackdown."
                             })
                         } else if (r[i].name === "Rodia") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/6/67/Rodia_palace.png/revision/latest?cb=20120921222050',
+                                landImg: 'https://s-media-cache-ak0.pinimg.com/736x/e9/40/71/e94071d34622f5ba843dcb57e2c05382.jpg',
                                 planetImg: 'http://vignette4.wikia.nocookie.net/starwars/images/0/07/RodiaNEGAS.jpg/revision/latest?cb=20061122222115',
                                 summary: "Rodia was a remote swampy, jungle planet and the homeworld of the Rodians. Cities on Rodia were encased with domed environmental shields that allowed entry and exit for vehicles and vessels."
                             })
                         } else if (r[i].name === "Nal Hutta") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/1/14/Bilbousa.png/revision/latest?cb=20130602044541',
+                                landImg: 'https://lumiere-a.akamaihd.net/v1/images/databank_nalhutta_01_169_72d58d25.jpeg?region=0%2C49%2C1560%2C780',
                                 planetImg: 'http://vignette3.wikia.nocookie.net/starwars/images/8/8d/Nal-hutta.png/revision/latest?cb=20130810013943',
                                 summary: "Nal Hutta was a hot, swampy planet located in the galaxy's Outer Rim Territories that was the homeworld of the Hutt species. The planet was a haven for the criminal elements of the galaxy, located far from galactic authorities. Its terrain was covered with numerous bogs, and its climate often consisted of greasy rains."
                             })
                         } else if (r[i].name === "Dantooine") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette2.wikia.nocookie.net/starwars/images/2/2e/Dantooine_conclave.jpg/revision/latest?cb=20071006172459',
+                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/6/6e/Aewdvwavr.jpg/revision/latest?cb=20080211171816',
                                 planetImg: 'http://vignette4.wikia.nocookie.net/es.starwars/images/e/e0/Dant-eaw.jpg/revision/latest?cb=20151230195707',
                                 summary: "Dantooine was a planet in the Outer Rim Territories within the Galactic Republic and later the Galactic Empire."
                             })
@@ -187,7 +187,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Ord Mantell") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette3.wikia.nocookie.net/starwars/images/1/1a/DaD.jpg/revision/latest?cb=20081019053248',
+                                landImg: 'http://vignette4.wikia.nocookie.net/starwars/images/d/de/EscapeFromOrdMantell-TCWEoD.png/revision/latest?cb=20131028221358',
                                 planetImg: 'http://vignette3.wikia.nocookie.net/swtor/images/8/8d/Ord_Mantell.jpg/revision/latest?cb=20100720144906',
                                 summary: "Ord Mantell was a planet that housed a base of operations for the criminal syndicate Black Sun during the Clone Wars. A battle was fought on the planet between the Shadow Collective, in which Black Sun was a member, and the Confederacy of Independent Systems. During the Galactic Civil War, Han Solo and the Rebel Alliance encountered a bounty hunter on Ord Mantell."
                             })
@@ -222,7 +222,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Chandrila") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette4.wikia.nocookie.net/cwafanon/images/e/eb/BattleofChandrila.jpg/revision/latest?cb=20130908154717',
+                                landImg: 'https://images-cdn.fantasyflightgames.com/filer_public/60/2b/602b5336-0fa5-43d5-990b-ce4934c9abbc/swa30-sunclouds.jpg',
                                 planetImg: 'http://vignette1.wikia.nocookie.net/starwars/images/6/63/Chandrila.jpg/revision/latest?cb=20150910034354',
                                 summary: "Chandrila was a planet in the Core Worlds of the galaxy. The female human Mon Mothma hailed from Chandrila, and represented her homeworld in the Galactic Republic's Senate."
                             })
@@ -243,14 +243,14 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Malastare") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/0/08/Malastare_landscape.png/revision/latest?cb=20120911235205',
+                                landImg: 'http://img.lum.dolimg.com/v1/images/databank_malastare_01_169_59df245f.jpeg?region=0%2C0%2C1560%2C878&width=768',
                                 planetImg: 'http://vignette4.wikia.nocookie.net/banthapedia/images/d/df/MalastareNEGAS.jpg/revision/latest?cb=20090902201252',
                                 summary: "Malastare was a forested planet located in the Malastare system of the Mid Rim. Its core was home to large reserves of Malastarian fuel, a toxic fuel found only on Malastare. It was the homeworld of the Dug species, though it was represented by the Gran species in the Galactic Senate."
                             })
                         } else if (r[i].name === "Dathomir") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette4.wikia.nocookie.net/starwars/images/0/07/Dathomirtcw.png/revision/latest?cb=20130521023023',
+                                landImg: 'http://img.lum.dolimg.com/v1/images/databank_dathomir_01_169_304c5db2.jpeg?region=0%2C0%2C1560%2C878&width=768',
                                 planetImg: 'http://vignette2.wikia.nocookie.net/starwars/images/f/f3/Dathomir-Massacre.png/revision/latest?cb=20150306134751',
                                 summary: "Dathomir was a remote, neutral planet and the home of the Nightsisters. The planet, lit red by its central star, had numerous continents that were overrun with vegetation, forests, and swamplands. "
                             })
@@ -264,7 +264,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Aleen Minor") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/2/2f/Corelliascape_TFU.jpg/revision/latest?cb=20120228045531',
+                                landImg: 'http://orig07.deviantart.net/e212/f/2014/029/1/9/alien_jungle_by_jjcanvas-d748dru.jpg',
                                 planetImg: 'http://vignette3.wikia.nocookie.net/starwars/images/f/f6/Aleen_NEGAS.jpg/revision/latest?cb=20070630172856',
                                 summary: "Aleen Minor, also known as Aleen, was the temperate homeworld of the Aleena, located in the Inner Rim Territories. The Aleen Classic, a popular podracing event, was held annually on the planet. Famous Aleena podracer Ratts Tyerell and Jedi Master Kazdan Paratus were natives of Aleen."
                             })
@@ -299,7 +299,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Tund") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/8/8a/Neimoidia.jpg/revision/latest?cb=20070210005937',
+                                landImg: 'http://farm1.static.flickr.com/47/111288491_1e2737f428.jpg',
                                 planetImg: 'http://vignette2.wikia.nocookie.net/starwars/images/9/90/Korriban.png/revision/latest?cb=20150829214105&path-prefix=it',
                                 summary: "Tund was a hidden world located in the mysterious Tund system. It was the homeworld of the Toong Podracer pilot Ben Quadinaros."
                             })
@@ -362,7 +362,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Champala") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette2.wikia.nocookie.net/starwars/images/f/f8/Bartyns_Landing_cover.jpg/revision/latest?cb=20081012221839',
+                                landImg: 'http://www.pcgamesn.com/sites/default/files/marquee_bertbert_05182015.jpg',
                                 planetImg: 'http://vignette2.wikia.nocookie.net/starwars/images/d/d7/Champala_NEGAS.jpg/revision/latest?cb=20061114221731',
                                 summary: "Champala was the home planet of Mas Amedda, Vice Chancellor of the Galactic Republic and later Grand Vizier of the Galactic Empire"
                             })
@@ -376,7 +376,7 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Serenno") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette2.wikia.nocookie.net/starwars/images/9/9d/SerennoCity-Nightsisters.png/revision/latest?cb=20130521031445',
+                                landImg: 'http://www.starwars-universe.com/images/encyclopedie/planetes/palais_dooku_serenno.jpg',
                                 planetImg: 'http://vignette1.wikia.nocookie.net/starwars/images/b/b2/Serenno-Massacre.png/revision/latest?cb=20130607043719',
                                 summary: "Serenno was a planet covered in lush forests, mountains and plains. During the Clone Wars, it was aligned with the Confederacy of Independent Systems, the leader of which was the Serenno-born Count Dooku."
                             })
@@ -411,21 +411,21 @@ angular.module('swapiApp')
                         } else if (r[i].name === "Muunilinst") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette1.wikia.nocookie.net/starwars/images/8/86/Harnaidan.jpg/revision/latest?cb=20110505190536',
+                                landImg: 'http://vignette2.wikia.nocookie.net/es.starwars/images/8/82/Muun4.jpg/revision/latest?cb=20060116182957',
                                 planetImg: 'http://vignette4.wikia.nocookie.net/starwars/images/1/19/Muunilinst.jpg/revision/latest?cb=20071221131608',
                                 summary: "Muunilinst (pronounced MYOON-il-ist, with a silent n near the end in Galactic Basic), nicknamed Moneylend, was the temperate, mineral-rich Muun homeworld and the headquarters of the InterGalactic Banking Clan. It was located on the Braxant Run. It was a member of the Confederacy of Independent Systems under Chairman San Hill."
                             })
                         } else if (r[i].name === "Shili") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: "http://vignette3.wikia.nocookie.net/swrp/images/4/42/Kilara's_camp_on_shili_01.jpg/revision/latest?cb=20110605143918",
+                                landImg: "http://orig05.deviantart.net/31a6/f/2011/145/8/7/8733e00742b6d19cc82ec09eaa627db6-d3h7f2u.jpg",
                                 planetImg: 'http://vignette4.wikia.nocookie.net/starwars/images/b/b8/ShiliNEGAS.jpg/revision/latest?cb=20061126102716',
                                 summary: "Shili was a planet that was the homeworld of the sentient Togruta species. Jedi Master Shaak Ti and former Padawan Ahsoka Tano of the Jedi Order were Togruta who hailed from this world."
                             })
                         } else if (r[i].name === "Kalee") {
                             planetsObj.push({
                                 response: r[i],
-                                landImg: 'http://vignette3.wikia.nocookie.net/starwars/images/6/62/Kalee.JPG/revision/latest?cb=20060107161351',
+                                landImg: 'http://a57.foxnews.com/global.fncstatic.com/static/managed/img/fn2/feeds/LiveScience/876/493/alien-planet.jpg?ve=1&tl=1',
                                 planetImg: 'http://vignette1.wikia.nocookie.net/starwars/images/6/66/Zolan.jpg/revision/latest?cb=20070701111500',
                                 summary: "Kalee was a planet that was the homeworld of the Kaleesh species. Grievous, a male Kaleesh warlord, was from this world."
                             })
